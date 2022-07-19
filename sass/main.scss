@@ -1,0 +1,17 @@
+.table{
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  .capation{
+    margin-bottom: 50px;
+  }
+  th,td{
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+}
+tbody> tr:nth-child(4)> td:nth-child(2){
+  padding-left: 70px;
+}
+tbody> tr:nth-child(4)> td:nth-child(1){
+  padding-left: 140px;
+}
